@@ -3,10 +3,11 @@ iOSProjectClean
 ###Python脚本 清理iOS项目里无用资源
 ####需求介绍
 iOS项目迭代版本时间长，会有一部分冗余的资源（图片，视频，音频等），不及时清理会影响IPA包的大小。对引流和用户体验都有一定的影响，故写一脚本练习Python，并做点有意思的事情。
+
 ####使用方法
 
-默认直接当前目录遍历清理
-python3 iOSProjectClean.py -f [file] -i 'ignorepath1' 'ignorepath2' ...
+	默认直接当前目录遍历清理
+	python3 iOSProjectClean.py -f [file] -i 'ignorepath1' 'ignorepath2' ...
 
 
 默认直接当前目录遍历清理
