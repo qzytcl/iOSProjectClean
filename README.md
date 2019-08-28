@@ -24,7 +24,7 @@ ___
         筛选allMap中资源文件resourceMap
         筛选出resourceMap中未引用资源文件delMap
         清理delMap
-          .imageset 直接删除文
+          .imageset 直接删除
           引用文件  先删除project.pbxproj引用,再删除文件
         清理完毕
       
